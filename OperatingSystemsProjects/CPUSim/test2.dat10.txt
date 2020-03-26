@@ -1,0 +1,292 @@
+
+PID 0 Runing
+ReadQueue: 
+WaitQueue: 
+C 1 20
+PID 1 20 Placed on ReadyQueue
+
+PID 1 20 Runing with 10 left
+ReadQueue: 
+WaitQueue: 
+C 2 10
+PID 2 10 Placed on ReadyQueue
+
+PID 1 19 Runing with 9 left
+ReadQueue: PID 2 10 
+WaitQueue: 
+C 3 15
+PID 3 15 Placed on ReadyQueue
+
+PID 1 18 Runing with 8 left
+ReadQueue: PID 2 10 PID 3 15 
+WaitQueue: 
+I
+
+PID 1 17 Runing with 7 left
+ReadQueue: PID 2 10 PID 3 15 
+WaitQueue: 
+C 4 7
+PID 4 7 Placed on ReadyQueue
+
+PID 1 16 Runing with 6 left
+ReadQueue: PID 2 10 PID 3 15 PID 4 7 
+WaitQueue: 
+I
+
+PID 1 15 Runing with 5 left
+ReadQueue: PID 2 10 PID 3 15 PID 4 7 
+WaitQueue: 
+I
+
+PID 1 14 Runing with 4 left
+ReadQueue: PID 2 10 PID 3 15 PID 4 7 
+WaitQueue: 
+I
+
+PID 1 13 Runing with 3 left
+ReadQueue: PID 2 10 PID 3 15 PID 4 7 
+WaitQueue: 
+C 5 9
+PID 5 9 Placed on ReadyQueue
+
+PID 1 12 Runing with 2 left
+ReadQueue: PID 2 10 PID 3 15 PID 4 7 PID 5 9 
+WaitQueue: 
+W 1
+PID 1 11 Placed on WaitQueue
+
+PID 2 10 Runing with 10 left
+ReadQueue: PID 3 15 PID 4 7 PID 5 9 
+WaitQueue: PID 1 11 1
+I
+
+PID 2 9 Runing with 9 left
+ReadQueue: PID 3 15 PID 4 7 PID 5 9 
+WaitQueue: PID 1 11 1
+I
+
+PID 2 8 Runing with 8 left
+ReadQueue: PID 3 15 PID 4 7 PID 5 9 
+WaitQueue: PID 1 11 1
+W 2
+PID 2 7 Placed on WaitQueue
+
+PID 3 15 Runing with 10 left
+ReadQueue: PID 4 7 PID 5 9 
+WaitQueue: PID 1 11 1PID 2 7 2
+I
+
+PID 3 14 Runing with 9 left
+ReadQueue: PID 4 7 PID 5 9 
+WaitQueue: PID 1 11 1PID 2 7 2
+I
+
+PID 3 13 Runing with 8 left
+ReadQueue: PID 4 7 PID 5 9 
+WaitQueue: PID 1 11 1PID 2 7 2
+I
+
+PID 3 12 Runing with 7 left
+ReadQueue: PID 4 7 PID 5 9 
+WaitQueue: PID 1 11 1PID 2 7 2
+E 1
+PID 1 11 Placed on ReadyQueue
+
+PID 3 11 Runing with 6 left
+ReadQueue: PID 4 7 PID 5 9 PID 1 11 
+WaitQueue: PID 2 7 2
+I
+
+PID 3 10 Runing with 5 left
+ReadQueue: PID 4 7 PID 5 9 PID 1 11 
+WaitQueue: PID 2 7 2
+I
+
+PID 3 9 Runing with 4 left
+ReadQueue: PID 4 7 PID 5 9 PID 1 11 
+WaitQueue: PID 2 7 2
+I
+
+PID 3 8 Runing with 3 left
+ReadQueue: PID 4 7 PID 5 9 PID 1 11 
+WaitQueue: PID 2 7 2
+E 2
+PID 2 7 Placed on ReadyQueue
+
+PID 3 7 Runing with 2 left
+ReadQueue: PID 4 7 PID 5 9 PID 1 11 PID 2 7 
+WaitQueue: 
+D 4
+
+PID 3 6 Runing with 1 left
+ReadQueue: PID 4 7 PID 5 9 PID 1 11 PID 2 7 
+WaitQueue: 
+I
+
+PID 4 7 Runing with 10 left
+ReadQueue: PID 5 9 PID 1 11 PID 2 7 PID 3 5 
+WaitQueue: 
+I
+
+PID 4 6 Runing with 9 left
+ReadQueue: PID 5 9 PID 1 11 PID 2 7 PID 3 5 
+WaitQueue: 
+I
+
+PID 4 5 Runing with 8 left
+ReadQueue: PID 5 9 PID 1 11 PID 2 7 PID 3 5 
+WaitQueue: 
+I
+
+PID 4 4 Runing with 7 left
+ReadQueue: PID 5 9 PID 1 11 PID 2 7 PID 3 5 
+WaitQueue: 
+I
+
+PID 4 3 Runing with 6 left
+ReadQueue: PID 5 9 PID 1 11 PID 2 7 PID 3 5 
+WaitQueue: 
+W 3
+PID 4 2 Placed on WaitQueue
+
+PID 5 9 Runing with 10 left
+ReadQueue: PID 1 11 PID 2 7 PID 3 5 
+WaitQueue: PID 4 2 3
+I
+
+PID 5 8 Runing with 9 left
+ReadQueue: PID 1 11 PID 2 7 PID 3 5 
+WaitQueue: PID 4 2 3
+I
+
+PID 5 7 Runing with 8 left
+ReadQueue: PID 1 11 PID 2 7 PID 3 5 
+WaitQueue: PID 4 2 3
+I
+
+PID 5 6 Runing with 7 left
+ReadQueue: PID 1 11 PID 2 7 PID 3 5 
+WaitQueue: PID 4 2 3
+I
+
+PID 5 5 Runing with 6 left
+ReadQueue: PID 1 11 PID 2 7 PID 3 5 
+WaitQueue: PID 4 2 3
+E 3
+PID 4 2 Placed on ReadyQueue
+
+PID 5 4 Runing with 5 left
+ReadQueue: PID 1 11 PID 2 7 PID 3 5 PID 4 2 
+WaitQueue: 
+I
+
+PID 5 3 Runing with 4 left
+ReadQueue: PID 1 11 PID 2 7 PID 3 5 PID 4 2 
+WaitQueue: 
+I
+
+PID 5 2 Runing with 3 left
+ReadQueue: PID 1 11 PID 2 7 PID 3 5 PID 4 2 
+WaitQueue: 
+I
+
+PID 5 1 Runing with 2 left
+ReadQueue: PID 1 11 PID 2 7 PID 3 5 PID 4 2 
+WaitQueue: 
+I
+PID 5 0 terminated
+
+PID 1 11 Runing with 10 left
+ReadQueue: PID 2 7 PID 3 5 PID 4 2 
+WaitQueue: 
+I
+
+PID 1 10 Runing with 9 left
+ReadQueue: PID 2 7 PID 3 5 PID 4 2 
+WaitQueue: 
+I
+
+PID 1 9 Runing with 8 left
+ReadQueue: PID 2 7 PID 3 5 PID 4 2 
+WaitQueue: 
+I
+
+PID 1 8 Runing with 7 left
+ReadQueue: PID 2 7 PID 3 5 PID 4 2 
+WaitQueue: 
+I
+
+PID 1 7 Runing with 6 left
+ReadQueue: PID 2 7 PID 3 5 PID 4 2 
+WaitQueue: 
+I
+
+PID 1 6 Runing with 5 left
+ReadQueue: PID 2 7 PID 3 5 PID 4 2 
+WaitQueue: 
+W 4
+PID 1 5 Placed on WaitQueue
+
+PID 2 7 Runing with 10 left
+ReadQueue: PID 3 5 PID 4 2 
+WaitQueue: PID 1 5 4
+W 5
+PID 2 6 Placed on WaitQueue
+
+PID 3 5 Runing with 10 left
+ReadQueue: PID 4 2 
+WaitQueue: PID 1 5 4PID 2 6 5
+I
+
+PID 3 4 Runing with 9 left
+ReadQueue: PID 4 2 
+WaitQueue: PID 1 5 4PID 2 6 5
+E 5
+PID 2 6 Placed on ReadyQueue
+
+PID 3 3 Runing with 8 left
+ReadQueue: PID 4 2 PID 2 6 
+WaitQueue: PID 1 5 4
+I
+
+PID 3 2 Runing with 7 left
+ReadQueue: PID 4 2 PID 2 6 
+WaitQueue: PID 1 5 4
+I
+
+PID 3 1 Runing with 6 left
+ReadQueue: PID 4 2 PID 2 6 
+WaitQueue: PID 1 5 4
+I
+PID 3 0 terminated
+
+PID 4 2 Runing with 10 left
+ReadQueue: PID 2 6 
+WaitQueue: PID 1 5 4
+I
+
+PID 4 1 Runing with 9 left
+ReadQueue: PID 2 6 
+WaitQueue: PID 1 5 4
+I
+PID 4 0 terminated
+
+PID 2 6 Runing with 10 left
+ReadQueue: 
+WaitQueue: PID 1 5 4
+I
+
+PID 2 5 Runing with 9 left
+ReadQueue: 
+WaitQueue: PID 1 5 4
+I
+
+PID 2 4 Runing with 8 left
+ReadQueue: 
+WaitQueue: PID 1 5 4
+X
+Current simulation state:
+PID 2 4 Runing with 8 left
+ReadQueue: 
+WaitQueue: PID 1 5 4
+
